@@ -1,0 +1,91 @@
+.loginFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.formTitle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.inputField {
+    width: 70%;
+    padding: 0.8rem 2.5rem;    
+    border-radius: 0.8rem;
+    border: 1px solid #D0D0D0;
+}
+.emailInput {
+    background-image: url('../../assets/email.svg');
+    background-size: 20px;
+    background-repeat: no-repeat; 
+    background-position: 10px center;
+}
+.passwordInputBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    border-radius: 0.8rem;
+    border: 1px solid #D0D0D0;
+    padding-right: 0.5rem;
+}
+.passwordInputBox > img {
+    height: 30px;
+}
+.passwordInputBox > input {
+    width: 100%;
+}
+
+.passInput {
+    background-image: url('../../assets/password.svg');
+    background-size: 20px;
+    background-repeat: no-repeat; 
+    background-position: 10px center;
+    border: none;
+}
+
+.inputField:focus{
+    outline: none;
+}
+
+.loginForm>button {
+    cursor: pointer;
+    width: 70%;
+    padding: 0.8rem 1rem;
+    border-radius: 3rem;
+    border: none;
+    color: #fff;
+    background: #17A2B8;
+}
+
+.loginFormFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.loginFormFooter>button {
+    cursor: pointer;
+    width: 70%;
+    padding: 0.8rem 1rem;
+    border-radius: 3rem;
+    border: none;
+    color: #17A2B8;
+    border: 1px solid #17A2B8;
+}
+.registerButton {
+    background: #fff;
+}

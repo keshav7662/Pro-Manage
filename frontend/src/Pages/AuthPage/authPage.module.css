@@ -1,0 +1,37 @@
+.authPageContainer {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bannerContainer {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    background: #17A2B8;
+}
+
+.banner {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.banner > img {
+    height: 100%;
+}
+.caption {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.caption > p {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.formContainer {
+    width:calc(100vw - 50vw)
+}

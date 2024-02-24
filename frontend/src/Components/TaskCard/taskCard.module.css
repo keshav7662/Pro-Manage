@@ -1,0 +1,60 @@
+.taskCardContainer {
+    margin: 5% auto;
+    width: 100%;
+    min-height: 40%;
+    border-radius: 1.2rem;
+    background: #fff;
+    padding: 0.8rem 1rem;
+}
+.priority {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.cardNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priority > p {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+}
+.threeDots {
+    position: relative;
+}
+.dorpMenu {
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem;
+    gap: 0.3rem;
+    right: 0.2rem;
+    width: 5.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+}
+.deleteBtn {
+    color: #CF3636;
+}
+
+.checklistContainer {
+    margin-top: 5%;
+   
+}
+.checklistCount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.taskLists {
+    margin-top: 3%;
+}
+.statusContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}

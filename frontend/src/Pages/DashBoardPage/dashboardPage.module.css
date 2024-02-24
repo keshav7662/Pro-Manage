@@ -1,0 +1,89 @@
+.dashboardContainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.heroContainer {
+    width: calc(100vw - 20vw);
+    height: 100%;
+    padding: 0.8rem 2rem;
+}
+
+.heroNav {
+    height: 20vh;
+}
+
+.userNameAndDate {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.userNameAndDate>p {
+    font-weight: 500;
+    color: #707070;
+}
+
+.sideMenuAndDropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.sidebarLabel {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.dropdown {
+    font-weight: 500;
+    border: none;
+    padding: 15px;
+}
+
+.dropdown:focus {
+    outline: none;
+}
+
+.heroBody {
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 0.4rem;
+    overflow-x: auto;
+}
+
+.cardContainer {
+    height: calc(100vh - 25vh);
+    min-width: 22vw;
+    background: #eef2f5;
+    overflow-y: auto;
+    padding: 0.8rem;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.cardContainerTittleBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addAndCollapse {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
